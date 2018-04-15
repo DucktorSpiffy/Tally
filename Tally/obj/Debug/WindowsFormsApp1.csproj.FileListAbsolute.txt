@@ -1,0 +1,10 @@
+C:\Users\badfitz66\AppData\Local\Temporary Projects\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\badfitz66\AppData\Local\Temporary Projects\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\badfitz66\AppData\Local\Temporary Projects\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\badfitz66\AppData\Local\Temporary Projects\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojResolveAssemblyReference.cache
+C:\Users\badfitz66\AppData\Local\Temporary Projects\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\badfitz66\AppData\Local\Temporary Projects\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\badfitz66\AppData\Local\Temporary Projects\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\badfitz66\AppData\Local\Temporary Projects\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\badfitz66\AppData\Local\Temporary Projects\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\badfitz66\AppData\Local\Temporary Projects\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Tally.resources

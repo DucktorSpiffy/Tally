@@ -151,13 +151,7 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox Display;
-        private System.Windows.Forms.Button Plus;
-        private System.Windows.Forms.Button Minus;
-        private System.Windows.Forms.MenuStrip Menu;
-        private System.Windows.Forms.ToolStripMenuItem Open;
-        private System.Windows.Forms.ToolStripMenuItem Savwe;
-        private System.Windows.Forms.ToolStripMenuItem saveAsToolStripMenuItem;
+
         private System.Windows.Forms.TextBox NumberDisplay;
         private System.Windows.Forms.Button Add;
         private System.Windows.Forms.Button TakeAway;

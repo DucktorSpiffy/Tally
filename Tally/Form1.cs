@@ -110,20 +110,28 @@ namespace WindowsFormsApp1
 
         private void openToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
+           
             OpenFileDialog openFileDialog1 = new OpenFileDialog();
             openFileDialog1.Filter = "Text File | *.txt";
             openFileDialog1.Title = "Select a Tally File";
 
             // Show the Dialog.  
-            // If the user clicked OK in the dialog and  
-            // a .CUR file was selected, open it.  
             if (openFileDialog1.ShowDialog() == System.Windows.Forms.DialogResult.OK)
             {
-                // Assign the cursor in the Stream to the Form's Cursor property.  
-                string newTally = File.ReadAllText(openFileDialog1.FileName);
-                Num = int.Parse(newTally);
-                CurOpenFile = Path.GetFullPath(openFileDialog1.FileName);
+                Console.WriteLine("OK!");
+                string newTally = File.ReadLines(Path.GetFullPath(openFileDialog1.FileName)).First();
+                Console.WriteLine("Got first line");
+                int newTallyInt=0;
+                bool CanParse = int.TryParse(newTally,out newTallyInt);
+                Console.WriteLine("Checking if can parse...");
+                if (CanParse)
+                {
+                    Console.WriteLine("Can parse");
+                    Num = newTallyInt;
+                    CurOpenFile = Path.GetFullPath(openFileDialog1.FileName);
+                }
             }
+            
         }
     }
 }
